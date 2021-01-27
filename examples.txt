@@ -1,0 +1,104 @@
+// // String manipulation
+// #get_name string name int age
+// var string newName = My name is ^s
+// $newName += $name
+// $newName += ^s and I am ^s
+// $newName += $age
+// $newName += ^s years old
+// return $newName
+// #endget_name
+
+// var string name = #get_name Bob 18
+// print $name
+
+
+
+// // String manipulation With loops
+//  #get_name string name
+//  var string newName = My name is ^s
+//  $newName += $name
+//  $newName += ^s and I am ^s
+//  $newName += $age
+//  $newName += ^s years old
+//  return $newName
+// #endget_name
+
+// #loop string
+//  var int age = $index
+//  var string name = #get_name Bob
+//  print $name
+// #endloop
+
+// repeat 18 #loop
+
+
+
+// // Get name and age and print it out
+// #get_name
+//     var string newName = My name is ^s
+//     $newName += $name
+//     $newName += ^s and I am ^s
+//     $newName += $age
+//     $newName += ^s years old
+//     return $newName
+// #endget_name
+
+// var string name = ^s
+// var int age = 0
+// input name Whats your name: ^s
+// input age How old are you: ^s
+
+// var string newName = #get_name
+// print $newName
+
+
+
+// // How many characters is there in your name
+// var string name = ^s
+// var string result = There is ^s
+// var int nameLength = 0
+// input name Whats your name: ^s
+// length nameLength $name
+// $result += $nameLength
+// $result += ^s characters in the name ^s
+// $result += $name
+// print $result
+
+
+
+// // Get characters
+// #loop string name
+//    print $name[$index]
+// #endloop
+
+// var string name = Bob
+
+
+// var int nameLength = 0
+// length nameLength $name
+// $nameLength -= 1
+// repeat $nameLength #loop $name
+
+
+
+// // 10 print algorithm
+// #loop
+//     #slash
+//         print /^l
+//     #endslash
+//     #backslash
+//         print \\^l
+//     #endbackslash
+//     var float t
+//     random t
+//     if $t < 0.5 #slash
+//     if $t > 0.5 #backslash   
+// #endloop
+// repeat 1000 #loop
+
+
+
+// // Type alias
+// type mystring = string
+// var mystring name = My name
+// print $name
